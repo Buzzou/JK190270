@@ -1,0 +1,3 @@
+/Users/liyeukhou/CLionProjects/JK190270/cmake-build-debug/CMakeFiles/JK190270.dir
+/Users/liyeukhou/CLionProjects/JK190270/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/liyeukhou/CLionProjects/JK190270/cmake-build-debug/CMakeFiles/rebuild_cache.dir
