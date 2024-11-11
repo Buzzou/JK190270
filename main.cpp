@@ -1,6 +1,6 @@
 #include <iostream>
-#include "1080401/1080401a.h"
-#include "1080401/1080401b.h"
+#include "2020501/2020501e.h"
+using std::cin, std::cout, std::endl;
 
 int main()
 {
@@ -10,7 +10,6 @@ int main()
     // anotherOddEvenSort();
     // Highest_score();
     // Joseph_Problem();
-    Sum_of_fractions();
-
-    return 0; // 表示程序正常结束
+    // Sum_of_fractions();
+    Bacteria_experiment_group();
 }

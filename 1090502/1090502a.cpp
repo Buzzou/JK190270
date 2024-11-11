@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+void Number_summation()
 {
     int a, num, sum = 0;
 
@@ -25,6 +25,4 @@ int main()
 
     // 输出小于 a 的数的和
     cout << sum << endl;
-
-    return 0;
 }
