@@ -34,7 +34,7 @@ void Text_layout()
         }
         else
         {
-            // 检查加入当前单词是否超过80字符
+            // 检查加入1个空格以及当前单词是否超过80字符
             if (line_length + 1 + word.length() <= 80)
             {
                 cout << " " << word;
