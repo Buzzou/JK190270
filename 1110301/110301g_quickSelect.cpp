@@ -23,7 +23,7 @@ using namespace std;
 //    else if (count > k) return quickSelect(nums, left, i - 1, k);
 //    else return quickSelect(nums, i + 1, right, k - count);
 //}
-int quickSelect(vector<int> &nums, int left, int right, int k)
+inline int quickSelect(vector<int> &nums, int left, int right, int k)
 {
     if (left == right) return nums[left];
 

@@ -8,7 +8,7 @@
 using namespace std;
 
 // 翻转函数
-void reverse(vector<int> &arr, int start, int end)
+inline void reverse(vector<int> &arr, int start, int end)
 {
     while (start < end)
     {

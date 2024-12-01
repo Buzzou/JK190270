@@ -31,7 +31,7 @@ struct Dish
 };
 
 // 比较函数，按繁殖率升序排列
-bool compareDishes(const Dish& a, const Dish& b)
+inline bool compareDishes(const Dish& a, const Dish& b)
 {
     return a.rate < b.rate;
 }

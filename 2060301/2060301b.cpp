@@ -10,7 +10,7 @@
 using namespace std;
 
 // 根据给定碱基返回互补碱基
-char getComplement(char base)
+inline char getComplement(char base)
 {
     switch (base)
     {

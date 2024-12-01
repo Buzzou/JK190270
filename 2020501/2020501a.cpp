@@ -7,7 +7,7 @@
 #include <vector>
 using namespace std;
 
-int findIndexEqualValue(int n, const vector<int>& x)
+inline int findIndexEqualValue(int n, const vector<int>& x)
 /*n 是一个简单的整数，按值传递没有太大的性能开销*/
 {
     for (int i = 0; i < n; ++i)

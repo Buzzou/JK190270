@@ -7,7 +7,7 @@
 using namespace std;
 
 // 计算一个整数各个位数的和
-int digit_sum(int x) {
+inline int digit_sum(int x) {
     int sum = 0;
     while (x > 0) {
         sum += x % 10;

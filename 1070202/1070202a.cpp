@@ -6,7 +6,7 @@
 #include <iostream>
 #include <algorithm> // 为了使用 std::max 函数
 
-int ceilDivide(int y, int x)
+inline int ceilDivide(int y, int x)
 /*
  * 正整数 y 和 x，小数不适用
  */

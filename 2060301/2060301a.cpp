@@ -18,7 +18,7 @@ struct Patient
 };
 
 // 自定义排序函数，按严重程度降序排序
-bool comparePatients(const Patient& a, const Patient& b)
+inline bool comparePatients(const Patient& a, const Patient& b)
 {
     return a.severity > b.severity;
 }

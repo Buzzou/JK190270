@@ -16,7 +16,7 @@ struct Point
 };
 
 // 判断 p1 是否支配 p2
-bool dominates(const Point& p1, const Point& p2)
+inline bool dominates(const Point& p1, const Point& p2)
 //点 (x1, y1) 支配 (x2, y2) 的条件是 x1 >= x2 且 y1 >= y2
 {
     return p1.x >= p2.x && p1.y >= p2.y;

@@ -6,7 +6,7 @@
 #include<iostream>
 using namespace std;
 
-int calculate_gcd(int a, int b)
+inline int calculate_gcd(int a, int b)
 /*a≥b*/
 {
     while (b != 0)

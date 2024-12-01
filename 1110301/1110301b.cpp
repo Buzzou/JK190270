@@ -9,7 +9,7 @@
 using namespace std;
 
 // 将字符串转为小写
-void toLowerCase(char str[])
+inline void toLowerCase(char str[])
 {
     for (int i = 0; str[i] != '\0'; i++)
     {

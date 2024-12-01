@@ -8,7 +8,7 @@
 using namespace std;
 
 // 判断是否为闰年
-bool isLeapYear(int year)
+inline bool isLeapYear(int year)
 {
     if (year % 400 == 0) return true;
     if (year % 100 == 0) return false;
@@ -16,7 +16,7 @@ bool isLeapYear(int year)
 }
 
 // 获取指定月份的天数
-int getDaysInMonth(int year, int month)
+inline int getDaysInMonth(int year, int month)
 {
     int days_in_month[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     if (month == 2 && isLeapYear(year))
